@@ -1,0 +1,124 @@
+
+body {
+    background: rgb(0, 0, 0) url("/img/fondo3.gif") repeat fixed center;
+    margin: 0px;
+}
+
+
+.link {
+    font-size: 30px;
+    color: rgb(255, 238, 0);
+    border: 5px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.imagen {
+    height: 800px;
+    width: 800px;
+    margin-top: 30px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue
+}
+
+h3 {
+    color: aliceblue;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    color: aliceblue;
+}
+
+footer {
+    color: rgb(255, 251, 0);
+}
+
+a {
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-bottom: 80px;
+
+}
+
+footer h3 span {
+    color: rgb(255, 0, 0);
+}
+
+.espacio {
+    margin-top: 100px;
+}
+
+.links {
+    flex-direction: row !important;
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.contenedor-header {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.contenedor-header img{
+    height: 80vh;
+    margin-left: 0px;
+    opacity: 0.;
+}
+.contenedor-header ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+ 
+}
+
+.contenedor-header ul li a {
+    color: rgb(250, 246, 0);
+    margin: 0 15px;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.contenedor-header ul li a:hover {
+    color: rgb(255, 230, 0);
+    transition: 0.8s;
+    border-radius: 20px;
+    border-color: yellow;
+}
