@@ -1,0 +1,9 @@
+comandos:
+
+git init (este sirve para activarlo)
+
+git status
+
+git add . (agrega todos los cambios)
+git commit -m "mensaje relacionado a los cambios que hicieron"
+git push
