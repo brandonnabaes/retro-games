@@ -1,6 +1,7 @@
 
 body {
-    background: rgb(0, 0, 0) url("/img/aver.gif") ;
+    background: rgb(0, 0, 0) ;
+    background-image: url(../img/aver.gif);
     background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
