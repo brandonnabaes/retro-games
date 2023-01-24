@@ -1,6 +1,10 @@
 
 body {
-    background: rgb(0, 0, 0) url("/img/fondo3.gif") repeat fixed center;
+    background: rgb(0, 0, 0) url("/img/aver.gif") ;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
     margin: 0px;
 }
 
@@ -14,8 +18,8 @@ body {
 }
 
 .imagen {
-    height: 800px;
-    width: 800px;
+    height: 300px;
+    width:300px;
     margin-top: 30px;
 }
 
