@@ -1,11 +1,32 @@
 body {
     background: rgb(0, 0, 0);
-    background-image: url(../img/aver.gif);
+    background-image: url(../img/Arcade.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 100px;
+}
 
-    margin: 0px;
+
+.pacman {
+    background: url(../img/Arcade3.gif);
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.carousel {
+    width: 350px !important;
+    height: 350px !important;
+}
+
+
+.juegos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .cuadrado {
@@ -59,10 +80,6 @@ p {
     color: rgb(255, 255, 255);
 }
 
-header {
-    color: aliceblue;
-}
-
 footer {
     color: rgb(255, 251, 0);
 }
@@ -92,16 +109,21 @@ footer h3 span {
 header {
     display: flex;
     width: 100%;
+    color: aliceblue;
 }
 
 .contenedor-header {
-    align-items: center;
     margin: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
 
 .contenedor-header img {
     height: 80vh;
