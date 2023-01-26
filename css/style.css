@@ -1,15 +1,87 @@
 body {
     background: rgb(0, 0, 0);
-    background-image: url(../img/Arcade.gif);
+    background-image: url(../img/fondo45.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 100px;
+}
+.link3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+   
+}
+
+.link1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 400px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.253);
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    border: 5px solid rgb(0, 0, 0);
+
+
+}
+
+.stg {
+    background: url(../img/fondo45.gif);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mariog {
+    background: url(../img/fondo45.gif);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pacmang {
+    background: url(../img/fondo45.gif);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.st {
+    background: url(../img/fondo45.gif);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mario {
+    background: url(../img/fondo45.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin: 100px;
 }
 
-
 .pacman {
-    background: url(../img/Arcade3.gif);
+    background: url(../img/fondo45.gif);
       background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -39,17 +111,44 @@ body {
 }
 
 .link {
+    background-color: rgba(0, 0, 0, 0.699);
     font-size: 30px;
-    color: rgb(255, 238, 0);
-    border: 5px solid white;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 30px;
     padding: 10px;
+}
+
+.stimagen {
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+.pacmanimagen {
+    height: 300px;
+    width: 480px;
+    margin-top: 30px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+.marioimagen {
+    height: 300px;
+    width: 700px;
+    margin-top: 30px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
 }
 
 .imagen {
     height: 300px;
     width: 300px;
     margin-top: 30px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
 }
 
 .centrado {
@@ -72,9 +171,6 @@ h3 {
     color: aliceblue
 }
 
-h3 {
-    color: aliceblue;
-}
 
 p {
     color: rgb(255, 255, 255);
@@ -113,6 +209,7 @@ header {
 }
 
 .contenedor-header {
+
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +229,7 @@ header {
 }
 
 .contenedor-header ul {
+
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -139,9 +237,10 @@ header {
 }
 
 .contenedor-header ul li a {
-    color: rgb(250, 246, 0);
+    background-color: rgba(0, 0, 0, 0.726);
+    color: rgb(255, 255, 255);
     margin: 0 15px;
-    border: 5px solid white;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 20px;
     padding: 5px;
     display: flex;
@@ -155,5 +254,5 @@ header {
     color: rgb(255, 230, 0);
     transition: 0.8s;
     border-radius: 20px;
-    border-color: yellow;
+    border-color: rgb(0, 0, 0);
 }
